@@ -5,8 +5,8 @@ def lottery():
     lotto = (random.sample(xrange(1, 40), a))
     for i in lotto:
         print i
-        lotto = (sorted(random.sample(xrange(1, 40), a)))
-    print "Your LOTTERY numbers are %s, Good luck!" % str(lotto)[1:-1]  #str(lotto)[1:-1] shortens string for 1 character on both sides
+    lotto_result = (sorted(lotto))
+    print "Your LOTTERY numbers are %s, Good luck!" % str(lotto_result)[1:-1]  #str(lotto)[1:-1] shortens string for 1 character on both sides
     # random.sample(population, k) k = length list of unique elements chosen from the population sequence.
     # xrange for a sample from a range of integers
     # sorted - sorted list
