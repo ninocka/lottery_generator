@@ -16,7 +16,7 @@ def main():
                 lottery()
             elif game == "2":
                 print "Goodbye"
-                break
+                exit()
 
 if __name__ == "__main__":
     main()
